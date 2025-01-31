@@ -112,8 +112,8 @@ class RectangleDrawable extends Sized2DDrawable implements ShapeDrawable {
   // int get hashCode => Object.hash(
   //     hidden,
   //     locked,
-  //     hashList(assists),
-  //     hashList(assistPaints.entries),
+  //     Object.hashAll(assists),
+  //     Object.hashAll(assistPaints.entries),
   //     position,
   //     rotationAngle,
   //     scale,

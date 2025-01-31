@@ -107,8 +107,8 @@ class TextDrawable extends ObjectDrawable {
   // @override
   // int get hashCode => Object.hash(
   //     hidden,
-  //     hashList(assists),
-  //     hashList(assistPaints.entries),
+  //     Object.hashAll(assists),
+  //     Object.hashAll(assistPaints.entries),
   //     position,
   //     rotationAngle,
   //     scale,

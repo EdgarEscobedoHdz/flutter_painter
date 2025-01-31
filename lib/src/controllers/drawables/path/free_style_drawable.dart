@@ -62,5 +62,5 @@ class FreeStyleDrawable extends PathDrawable {
   // }
   //
   // @override
-  // int get hashCode => Object.hash(hidden, hashList(path), color, strokeWidth);
+  // int get hashCode => Object.hash(hidden, Object.hashAll(path), color, strokeWidth);
 }

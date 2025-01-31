@@ -47,5 +47,5 @@ class EraseDrawable extends PathDrawable {
   // }
 
   // @override
-  // int get hashCode => Object.hash(hidden, hashList(path), strokeWidth);
+  // int get hashCode => Object.hash(hidden, Object.hashAll(path), strokeWidth);
 }

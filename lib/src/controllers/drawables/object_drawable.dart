@@ -168,8 +168,8 @@ abstract class ObjectDrawable extends Drawable {
   });
 
   // @override
-  // int get hashCode => Object.hash(hidden, locked, hashList(assists),
-  //     hashList(assistPaints.entries), position, rotationAngle);
+  // int get hashCode => Object.hash(hidden, locked, Object.hashAll(assists),
+  //     Object.hashAll(assistPaints.entries), position, rotationAngle);
 
   /// Calculates the intersection points between a line passing through point [point]
   /// with an angle tangent [angleTan] with the rectangular box of size [size].
