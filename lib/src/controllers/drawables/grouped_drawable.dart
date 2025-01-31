@@ -30,5 +30,5 @@ class GroupedDrawable extends Drawable {
   // }
   //
   // @override
-  // int get hashCode => hashValues(hidden, hashList(drawables));
+  // int get hashCode => Object.hash(hidden, hashList(drawables));
 }

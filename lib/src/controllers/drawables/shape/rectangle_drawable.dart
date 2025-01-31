@@ -109,7 +109,7 @@ class RectangleDrawable extends Sized2DDrawable implements ShapeDrawable {
   // }
   //
   // @override
-  // int get hashCode => hashValues(
+  // int get hashCode => Object.hash(
   //     hidden,
   //     locked,
   //     hashList(assists),

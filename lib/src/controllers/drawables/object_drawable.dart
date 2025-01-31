@@ -168,7 +168,7 @@ abstract class ObjectDrawable extends Drawable {
   });
 
   // @override
-  // int get hashCode => hashValues(hidden, locked, hashList(assists),
+  // int get hashCode => Object.hash(hidden, locked, hashList(assists),
   //     hashList(assistPaints.entries), position, rotationAngle);
 
   /// Calculates the intersection points between a line passing through point [point]

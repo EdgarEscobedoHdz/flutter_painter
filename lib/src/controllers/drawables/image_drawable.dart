@@ -119,7 +119,7 @@ class ImageDrawable extends ObjectDrawable {
   // }
   //
   // @override
-  // int get hashCode => hashValues(
+  // int get hashCode => Object.hash(
   //     hidden,
   //     hashList(assists),
   //     hashList(assistPaints.entries),

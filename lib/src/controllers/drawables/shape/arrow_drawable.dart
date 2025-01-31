@@ -126,7 +126,7 @@ class ArrowDrawable extends Sized1DDrawable implements ShapeDrawable {
   // }
   //
   // @override
-  // int get hashCode => hashValues(
+  // int get hashCode => Object.hash(
   //     hidden,
   //     locked,
   //     hashList(assists),
